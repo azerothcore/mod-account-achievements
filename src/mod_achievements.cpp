@@ -10,6 +10,8 @@
 */
 
 #include "Config.h"
+#include "ScriptMgr.h"
+#include "Chat.h"
 
 
 class AccountAchievements : public PlayerScript
