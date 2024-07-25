@@ -78,7 +78,7 @@ public:
 			if (limitlevel)
 				setlevel = minlevel;
 
-			if (player->getLevel() >= setlevel)
+			if (player->GetLevel() >= setlevel)
 				player->CompletedAchievement(sAchievementStore.LookupEntry(AchievementID));
 		}
 	}
