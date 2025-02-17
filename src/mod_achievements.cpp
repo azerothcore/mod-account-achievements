@@ -45,7 +45,7 @@ public:
 		}
 	}
 
-	void OnLogin(Player* pPlayer) override
+	void OnLogin(Player* pPlayer)
 	{
 		if (sConfigMgr->GetOption<bool>("Account.Achievements.Enable", true))
 		{
